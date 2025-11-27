@@ -35,6 +35,9 @@ body{
     left: 100px;
 }
 .imgn{
+
+    position: relative;
+    left: 39px;
     width: 120px;
     height: 120px;
 }
