@@ -1,0 +1,81 @@
+body{
+    background: radial-gradient(#F52749 100%);
+}
+.titulo{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.center{
+    text-align: center;
+
+}
+.dib1{
+    background: radial-gradient(rgb(183, 197, 212) 100%);
+    
+    border-radius: 30px;
+    height: 710px;
+    width: 100%;
+}
+.dib2{
+
+    background: radial-gradient(rgb(183, 197, 212) 100%);
+    border-radius: 30px;
+    position: relative;
+    height: 50px;
+    width: 90%;
+    top: 10px;
+    left: 20px;
+}
+.rectangulo{
+    
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 100px;
+}
+.imgn{
+    width: 120px;
+    height: 120px;
+}
+.imgn2{
+    height: 90px;
+    width: 90px;
+}
+.pf{
+    font-size: 12px;
+}
+a{
+    
+    border-radius: 20px;
+    padding: 1px;
+    position: relative;
+    top: 10px;
+    
+}
+
+a {
+  text-decoration: none; 
+  color: #555555; 
+  font-weight: normal; 
+  transition: color 0.3s ease, background-color 0.3s ease; 
+}
+
+
+a:hover {
+  color: #007BFF; 
+  background-color: rgba(0, 123, 255, 0.1); 
+  border-radius: 3px; 
+  padding: 2px 4px; 
+}
+
+
+a:active {
+  color: #0056b3; 
+  background-color: rgba(0, 123, 255, 0.2); /
+}
+
+.pft{
+    font-size: 14px;
+    text-align: center;
+}

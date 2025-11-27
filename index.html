@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro y Login con IndexedDB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="titulo center">Login</p>
+    <br>
+    <div class="diboc">
+        <button id="btnIrLista">Ver usuarios</button>
+    </div>
+    <div class="dib1 center">
+        <br>
+        <p class="titulo center">Crear Cuenta</p>
+        <input type="text" id="campo1" placeholder="Nombre:">
+        <p></p>
+        <input type="text" id="campo2" placeholder="Contraseña:">
+        <p></p>
+        <input type="text" id="campo3" placeholder="Correo:">
+        
+
+    <p>.</p>    
+    <div class="dib2">
+        <pre>
+        <button id="btnGuardar">Crear cuenta</button>
+        </pre>
+        <pre>
+        <button id="btnLogin">Iniciar sesión</button>
+        </pre>
+
+    </div>
+    </div>
+
+  <script src="BD.js"></script>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js")
+      .then(() => console.log("Service Worker registrado"))
+      .catch(err => console.error("Error registrando SW:", err));
+  }
+  </script>
+
+  <script>
+    document.getElementById("btnIrLista").addEventListener("click", () => {
+      window.location.href = "./pag2.html";
+    });
+  </script>
+
+</body>
+</html>
+
+  
+ 

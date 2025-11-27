@@ -1,0 +1,44 @@
+body{
+
+    background: radial-gradient(#F52749 100%);
+
+}
+.titulo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.dib1{
+    border-radius: 30px;
+    background: #78797d;
+    background: radial-gradient(circle,rgba(120, 121, 125, 1) 0%, rgba(189, 189, 189, 1) 100%);
+    
+    height: 400px;
+    width:100%;
+    
+}
+.dib2{
+    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dib3{
+    padding: 25px;
+    margin: 10px;
+}
+.volver{
+    position: relative;
+    left: 130px;
+}
+.center{
+    
+    text-align: center;
+    
+}
+.diboc{
+    position: relative;
+    top: -30px;
+    left: 65%;
+}
